@@ -61,11 +61,16 @@ Key Points:
 def create_bot():
     
     
-    api_key = os.getenv("GOOGLE_API_KEY")
+    api_key = st.secrets.get("GOOGLE_API_KEY", None)
+
+    # If not found, fallback to .env
     if not api_key:
-        st.error(" **Google API Key not found!** Please add it to your .env file.")
-        st.stop()
+        load_dotenv()
+        api_key = os.getenv("GOOGLE_API_KEY")
     
+    if not api_key:
+        st.error(" API key not found! Add it to `.env` for local or `secrets.toml` for cloud.")
+        st.stop()
     
     llm = ChatGoogleGenerativeAI(
         model="gemini-1.5-flash-latest",
