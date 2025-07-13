@@ -1,4 +1,6 @@
+
  CONTRAIrian - If It's Safe, It's a Lie
+
 
 
 # 🤖 ContrAIrian  
@@ -17,6 +19,7 @@ If you're not uncomfortable, you're not thinking hard enough.
 
 > ⚠️ This bot is designed to **always disagree** with you.  
 > It's not personal. It's the antidote to digital conformity.
+
 
 ## 📦 Installation & Run
 
@@ -45,3 +48,4 @@ GOOGLE_API_KEY=your_ai_studio_api_key_here
 ```bash
 git clone https://github.com/vargheesk/CONTRAIrian-langchain-streamlit.git
 cd ContrAIrian
+
