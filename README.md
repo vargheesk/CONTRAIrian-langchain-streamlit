@@ -6,6 +6,12 @@
 # 🤖 ContrAIrian  
 **"You Can't Wake Up If You Never Questioned the Dream."**
 
+## 🚀 Live Demo
+
+👉 [Demo](https://contrairian-vke.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-orange?style=for-the-badge&logo=streamlit)](https://contrairian-vke.streamlit.app/)
+
+
 ContrAIrian isn’t just a chatbot — it’s a rebellion.
 
 Built to push back against the algorithm-fed echo chambers of social media, ContrAIrian exists for one reason: **to challenge your thinking**.  

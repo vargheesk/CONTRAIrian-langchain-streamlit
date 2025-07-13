@@ -129,22 +129,22 @@ def main():
         st.markdown("*🤖 ContrAIrian*")
     
     
-    st.title("You Can't Wake Up If You Never Questioned the Dream.")
+    st.title("You Can't Wake Up If You Never Questioned the Dream")
 
 
 
     with st.sidebar:
         st.warning("⚠️ **Important Warning**")
         st.write("""
-        This bot is designed to **always disagree** with you for debate practice.
-        
-        **Please remember:**
-        - This is NOT personal
-        - The bot doesn't reflect real opinions
-        - It's just a tool for practicing arguments
-        - Don't take responses seriously
-        - Have fun and think critically!
-        """)
+    This bot is built to **question your reality** — not to agree with it.
+
+    **Remember:**
+    - Most choices today are shaped by social media, not deep thought  
+    - What’s trending isn’t always truth  
+    - This is NOT personal 
+    - Don’t take responses seriously 
+    - Have fun and think critically
+    """)
     
     
     bot = create_bot()
